@@ -62,11 +62,11 @@ $httpbin = new httpbin;
 
 - GETXML
 
-  $timeout = 10; //this timeout based on seconds
+  ```$timeout = 10; //this timeout based on seconds
   
   $json_decode = true; // this for decode output json
   
-  $apiget = $httpbin->getXml($timeout, $json_decode);
+  $apiget = $httpbin->getXml($timeout, $json_decode);```
 
 ## License
 
