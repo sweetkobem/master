@@ -55,8 +55,10 @@ $httpbin = new httpbin;
   $apiget = $httpbin->delete($url, $params, $timeout, $json_decode);
 
 - GETXML
-  *$timeout = 10; //this timeout based on seconds
-  *$json_decode = true; // this for decode output json
+
+  $timeout = 10; //this timeout based on seconds
+
+  $json_decode = true; // this for decode output json
   
   $apiget = $httpbin->getXml($timeout, $json_decode);
 
